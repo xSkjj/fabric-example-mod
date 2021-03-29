@@ -22,7 +22,7 @@ public interface EntityAttackCallback {
 
                 return ActionResult.PASS;
             }
-            );
+    );
 
     ActionResult interact(DamageSource source, PlayerEntity player);
 }
